@@ -98,6 +98,6 @@ class HomeController extends Controller
         echo '<pre>';
         print_r($post);
         die;
-        
+         
     }
 }
