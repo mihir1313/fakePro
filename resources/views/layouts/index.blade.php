@@ -8,6 +8,7 @@
     <link rel="icon" href="{{ asset('assets/logo/logo.png') }}" sizes="16x16" type="image/png">
     {{-- <link href="{{ asset('assets\common\bootstrap.min.css') }}" rel="stylesheet"> --}}
     <link href="{{ asset('assets\common\style.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css" rel="stylesheet">
 </head>
 <body>
     <main class="main_wrapper" style="user-select:none">
@@ -21,7 +22,9 @@
     <script ript src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
     integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"
     integrity="sha512-6S5LYNn3ZJCIm0f9L6BCerqFlQ4f5MwNKq+EthDXabtaJvg3TuFLhpno9pcm+5Ynm6jdA9xfpQoMz2fcjVMk9g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>

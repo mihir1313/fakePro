@@ -24,6 +24,8 @@ Route::any('/membership/ready/{member?}', [App\Http\Controllers\MemberShipReadyC
 Route::any('/membership/save', [App\Http\Controllers\MemberShipReadyController::class, 'save'])->name('membership.save');
 Route::any('/membership/unlocked', [App\Http\Controllers\MemberShipReadyController::class, 'unlocked'])->name('membership.unlocked');
 
+Route::any('/dropzone', [App\Http\Controllers\HomeController::class, 'dropzone'])->name('dropzone');
+Route::any('/dropzone/save', [App\Http\Controllers\HomeController::class, 'dropzoneSave'])->name('dropzone.save');
 // Route::get('/check-connection', function () {
 //     try {
 //         DB::connection('mongodb')->getMongoDB();

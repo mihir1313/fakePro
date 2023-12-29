@@ -88,4 +88,16 @@ class HomeController extends Controller
 
         return redirect()->route('membership.ready', ['member' => encrypt($resArray)]);
     }
+
+    public function dropzone(Request $request){
+
+        return view('dropzone');
+        }
+    public function dropzoneSave(Request $request){
+        $post = $request->all();
+        echo '<pre>';
+        print_r($post);
+        die;
+        
+    }
 }
