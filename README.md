@@ -69,15 +69,6 @@ This project is a Laravel application integrated with Dropzone for file uploads.
 - Dropzone for file uploads
 - Basic setup for web application
 
-## Screenshots
-
-![Screenshot1](path/to/screenshot1.png)
-![Screenshot2](path/to/screenshot2.png)
-
 ## Contribution
 
 Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
