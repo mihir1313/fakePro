@@ -1,4 +1,4 @@
-# Laravel Project with Dropzone Integration
+# FakePro (A Laravel Project with Dropzone Integration)
 
 This project is a Laravel application integrated with Dropzone for file uploads.
 
@@ -8,6 +8,7 @@ This project is a Laravel application integrated with Dropzone for file uploads.
 - [Composer](https://getcomposer.org/)
 - [PHP](https://www.php.net/)
 - [WampServer](http://www.wampserver.com/en/)
+- [MySQL](https://www.mysql.com/)
 
 ## Setup Instructions
 
